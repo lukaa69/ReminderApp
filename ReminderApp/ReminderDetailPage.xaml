@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReminderApp.ReminderDetailPage"
+             BackgroundColor="{StaticResource PrimaryColor}">
+
+    <StackLayout Padding="20">
+        <Label x:Name="titleLabel" FontSize="24" TextColor="{StaticResource SecondaryColor}" />
+        <Label x:Name="descriptionLabel" FontSize="16" TextColor="{StaticResource SecondaryColor}" />
+        <Button Text="Obriši podsjetnik" Clicked="OnDeleteReminderClicked" BackgroundColor="{StaticResource AccentColor}" TextColor="White" />
+    </StackLayout>
+
+</ContentPage>
